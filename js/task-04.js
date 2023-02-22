@@ -4,7 +4,7 @@ let count = 0;
 document.querySelectorAll("button").forEach((button) => {
   button.addEventListener("click", () => {
     if (button.dataset.action === "decrement") {
-      count-+;
+      count--;
     } else if (button.dataset.action === "increment") {
       count++;
     }
